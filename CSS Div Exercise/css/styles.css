@@ -1,0 +1,30 @@
+body {
+    margin:0px;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 10px;
+    padding: 20px;
+}
+
+.middle-container {
+    height: 200px;
+    width: 200px;
+    margin-left: 260px;
+    background-color: red;
+    border: solid;
+    border-width: 20px;
+}
+
+.bottom-container {
+    height: 200px;
+    width: 200px;
+    margin-left: 500px;
+    background-color: yellow;
+    border: solid;
+    border-width: 10px;
+}
