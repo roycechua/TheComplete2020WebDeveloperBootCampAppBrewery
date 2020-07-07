@@ -7,7 +7,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -32,7 +32,9 @@ h3 {
 }
 
 #features {
+    background-color: white;
     padding: 7% 15%;
+    position: relative;
 }
 
 .feature-icon {
@@ -89,6 +91,8 @@ p {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Testimional Section */
@@ -123,5 +127,49 @@ p {
 
 /* Pricing section */
 #pricing {
+    text-align: center;
     padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* call to action section */
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-message {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    width: 70%;
+    margin: auto;
+    font-weight: 900;
+}
+
+/* Footer section */
+#footer {
+    background-color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icon i {
+    margin: 20px 10px;
+    color: #22252A;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
